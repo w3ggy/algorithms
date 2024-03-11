@@ -1,4 +1,5 @@
 // Insertion sort is effective for a small amount of elements
+// T(n) = O(n^2)
 
 void sort(List<int> list) {
   for (var j = 1; j < list.length; j++) {
